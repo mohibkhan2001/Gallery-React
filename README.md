@@ -1,16 +1,90 @@
-# React + Vite
+# 📸 Picsum Image Gallery (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project that fetches images from the **Picsum Photos API** with **pagination**, **lazy loading**, and smooth UI using Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Fetch images from Picsum API
+* Pagination (Next / Prev)
+* Lazy-loaded images for faster performance
+* Responsive grid layout
+* Smooth hover animation
+* Built with React + Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🖼️ Screenshots
+
+(Add your project screenshots here)
+
+---
+
+## 🛠️ Tech Stack
+
+* **React**
+* **Axios**
+* **Tailwind CSS**
+* **Picsum API**
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── App.jsx
+├── index.jsx
+└── styles.css
+```
+
+---
+
+## 🔗 API Used
+
+> [https://picsum.photos/v2/list](https://picsum.photos/v2/list)
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub!
+
+---
+
+If you want, I can also generate:
+✔ A professional README
+✔ A fancy README with badges
+✔ A markdown README with screenshots layout
+✔ A README that matches your GitHub profile style
+
+Just tell me!
